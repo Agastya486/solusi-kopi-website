@@ -26,10 +26,10 @@ function LandingPage() {
               <a href="#about" className="text-gray-700 hover:text-[#79C000] transition">About</a>
               <Link to="/products" className="text-gray-700 hover:text-[#79C000] transition">Products</Link>
               <Link to="/contact" className="text-gray-700 hover:text-[#79C000] transition">Contact</Link>
-              <button className="bg-[#79C000] text-white px-6 py-2 rounded-full hover:bg-[#6AB000] transition">
+              <Link to="/products" className="bg-[#79C000] text-white px-6 py-2 rounded-full hover:bg-[#6AB000] transition">
                 <ShoppingCart className="inline w-4 h-4 mr-2" />
                 Shop Now
-              </button>
+              </Link>
             </div>
 
             {/* Mobile menu button */}

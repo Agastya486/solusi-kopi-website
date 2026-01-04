@@ -120,7 +120,7 @@ function ProductPage() {
                                 <Link to="/" className="text-gray-700 hover:text-[#79C000] transition">About</Link>
                                 <Link to="/products" className="text-[#79C000] font-semibold">Products</Link>
                                 <Link to="/contact" className="text-gray-700 hover:text-[#79C000] transition">Contact</Link>
-                                <button className="bg-[#79C000] text-white px-6 py-2 rounded-full hover:bg-[#6AB000] transition relative">
+                                <Link to="/cart"  className="bg-[#79C000] text-white px-6 py-2 rounded-full hover:bg-[#6AB000] transition relative cursor-pointer">
                                         <ShoppingCart className="inline w-4 h-4 mr-2" />
                                         Cart
                                         {cart.length > 0 && (
@@ -128,7 +128,7 @@ function ProductPage() {
                                         {cart.length}
                                         </span>
                                         )}
-                                </button>
+                                </Link>
                                 </div>
 
                                 {/* Mobile menu button */}
@@ -177,7 +177,7 @@ function ProductPage() {
                                         selectedCategory === cat.id
                                         ? 'bg-[#79C000] text-white'
                                         : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                                        }`}
+                                        } cursor-pointer`}
                                         >
                                         {cat.name}
                                         </button>
@@ -218,7 +218,7 @@ function ProductPage() {
                                         </span>
                                         <button
                                         onClick={() => addToCart(product)}
-                                        className="bg-[#79C000] text-white px-4 py-2 rounded-full hover:bg-[#6AB000] transition flex items-center gap-2"
+                                        className="bg-[#79C000] text-white px-4 py-2 rounded-full hover:bg-[#6AB000] transition flex items-center gap-2 cursor-pointer"
                                         >
                                         <ShoppingCart className="w-4 h-4" />
                                         Add
