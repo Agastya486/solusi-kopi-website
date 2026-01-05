@@ -4,6 +4,7 @@ import LandingPage from './Landing-page'
 import ProductPage from './Product-page'
 import ContactPage from './Contact-page'
 import CartPage from './Cart-page';
+import AdminPage from './Admin-page';
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/products" element={<ProductPage />}/>
       <Route path="/contact" element={<ContactPage />} />
       <Route path="/cart" element={<CartPage />} />
+      <Route path="/admin" element={<AdminPage />} />
     </Routes>
   </BrowserRouter>,
 )
