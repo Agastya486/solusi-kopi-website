@@ -1,9 +1,7 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './style.css'
-import {Link} from 'react-router-dom'
-import React, { useState } from 'react'
-import { Menu, X, ShoppingCart, Coffee, Award, Truck } from 'lucide-react'
+import '../../style.css';
+import {Link} from 'react-router-dom';
+import React, { useState } from 'react';
+import { Menu, X, ShoppingCart, Coffee, Award, Truck } from 'lucide-react';
 
 function LandingPage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

@@ -1,9 +1,6 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './style.css'
-import {Link} from 'react-router-dom'
-import React, { useState } from 'react'
-import { Menu, X, ShoppingCart, Search, Filter, Star } from 'lucide-react'
+import {Link} from 'react-router-dom';
+import React, { useState } from 'react';
+import { Menu, X, ShoppingCart, Search, Filter, Star } from 'lucide-react';
 
 function ProductPage() {
         const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -298,4 +295,4 @@ function ProductPage() {
         )
 }
 
-export default ProductPage
+export default ProductPage;

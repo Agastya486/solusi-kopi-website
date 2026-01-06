@@ -1,8 +1,5 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './style.css'
-import {Link} from 'react-router-dom'
-import React, { useState } from 'react'
+import {Link} from 'react-router-dom';
+import React, { useState } from 'react';
 import { Menu, X, ShoppingCart, MapPin, Phone, Mail, Clock, Send, Instagram, Music } from 'lucide-react';
 
 function ContactPage() {
